@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockube/dockube-nfs"
-DOCKER_TAG="16.04"
+DOCKER_TAG="golang"
 
 #### Halt script on error
 set -e
