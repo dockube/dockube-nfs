@@ -68,7 +68,7 @@ CMD ["/usr/sbin/sshd", "-D"]
 #  INSTALL GOLANG
 # ================================================================================================
 USER root
-ARG INSTALL_GOLANG=true
+ARG INSTALL_GOLANG=false
 RUN if [ "${INSTALL_GOLANG}" = true ]; then \
       /bin/sh /opt/install_golang.sh \
     ;fi
