@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockube/dockube-nfs"
-DOCKER_TAG="latest"
+DOCKER_TAG="16.04"
 
 #### Halt script on error
 set -e
